@@ -1,19 +1,32 @@
 name: giffy_dialog
-description: A Flutter package for a quick, handy and beautiful giffy dialog.
-version: 1.8.0
 homepage: https://github.com/xsahil03x/giffy_dialog
+description: A Flutter package for a quick, handy and beautiful giffy dialogs and bottom sheets.
+version: 2.3.0
+repository: https://github.com/xsahil03x/giffy_dialog
+issue_tracker: https://github.com/xsahil03x/giffy_dialog/issues
 
 environment:
-  sdk: ">=2.2.2 <3.0.0"
+  sdk: ^3.4.0
+  flutter: ">=3.22.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flare_flutter: ^2.0.5
-  
+  rive: ^0.13.10
+  lottie: ^3.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  image_test_utils: ^1.0.0
+  flutter_lints: ">=4.0.0 <6.0.0"
 
-flutter:
+topics:
+  - dialog
+  - bottomsheet
+  - giffy-dialog
+  - rive-dialog
+  - lottie-dialog
+
+screenshots:
+  - description: 'Package Demo'
+    path: asset/package_demo.gif
